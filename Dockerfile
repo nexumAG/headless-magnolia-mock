@@ -1,5 +1,6 @@
 FROM python:3.6
 
+ENV HMM_CORS='{"Access-Control-Allow-Origin": "*", "Access-Control-Allow-Methods": "GET"}'
 ENV HMM_PORT=8888
 ENV HMM_BASEDIR=/var/www
 
