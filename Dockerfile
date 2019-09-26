@@ -10,6 +10,7 @@ VOLUME [ "/var/www" ]
 
 ADD requirements.txt requirements.txt
 ADD main.py main.py
+ADD handlers.py handlers.py
 
 RUN pip install -r requirements.txt
 
